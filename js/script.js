@@ -18,5 +18,8 @@ const getAdvice = async function () {
     adviceText.textContent = `"${advice}"`
 }
 
+// initialization
+getAdvice()
+
 // adding the click event listener
 btnLoad.addEventListener("click", getAdvice)
