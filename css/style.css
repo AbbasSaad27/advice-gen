@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-advice {
+    width: 50rem;
+    min-height: 25rem;
+    border-radius: 2rem;
+    background-color: hsl(217, 19%, 24%);
+    text-align: center;
+    padding: 3rem 2rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    transition: all 0.5s;
+}
+
+.advice-title {
+    color: hsl(150, 100%, 66%);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.advice-text {
+    font-size: 2.8rem;
+    color: hsl(193, 38%, 86%);
+    padding: 2rem 0;
+}
+
+.btn {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    bottom: -2.5rem;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    padding: 1rem 1rem .8rem;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    box-shadow: 1px 1px 10px 5px hsl(150, 100%, 66%);
+}
+
+.btn img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.btn:active {
+    border: none;
+    outline: none;
+    transform: translate(-50%) rotate(360deg);
+}
+
+@media only screen and (min-width: 1440px) {
+    html {
+      font-size: 65%;
+    }
+  }
+  @media only screen and (min-width: 1600px) {
+    html {
+      font-size: 70%;
+    }
+  }
+  @media only screen and (min-width: 1800px) {
+    html {
+      font-size: 75%;
+    }
+  }
+  @media only screen and (max-width: 1280px) {
+    html {
+      font-size: 60%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+      .container-advice {
+          width: 90%;
+      }
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    html {
+      font-size: 58%;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+      .advice-text {
+          font-size: 2.5rem;
+      }
+  }
