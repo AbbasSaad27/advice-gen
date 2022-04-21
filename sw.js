@@ -1,5 +1,4 @@
 const filesToCache = [
-    '/',
     'css/style.css',
     'images/favicon-32x32.png',
     'images/icon-dice.svg',
