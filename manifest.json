@@ -1,0 +1,19 @@
+{
+    "name":"Advice Genarator App",
+    "short_name": "Advice Gen App",
+    "icons": [{
+        "src":"images/Logos-Large-Icons-icon.png",
+        "sizes":"512x512",
+        "type": "image/png"
+    },
+    {
+        "src":"images/Logos-Small-Icons-icon.png",
+        "sizes":"128x128",
+        "type": "image/png"
+    }],
+    "start_url": "/index.html",
+    "display": "minimul-ui",
+    "orientation": "portrait",
+    "background_color": "white",
+    "theme_color": "white"
+}
